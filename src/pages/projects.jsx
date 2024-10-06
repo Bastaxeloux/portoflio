@@ -7,66 +7,66 @@ import 'react-tabs/style/react-tabs.css'; // Style de base pour les onglets
 const technicalProjects = [
     {
         id: 'tech-1',
-        title: 'Application React Native',
-        description: 'Application mobile de suivi de fitness avec backend Node.js',
+        title: 'Coming Soon',
+        description: 'Coming soon coming soon coming soon coming soon coming soon',
         image: '/api/placeholder/400/300',
-        details: 'Description détaillée du projet technique 1...'
+        details: 'description détaillée'
     },
     {
         id: 'tech-2',
-        title: 'Portfolio React',
-        description: 'Site web portfolio minimaliste avec React et Tailwind',
+        title: 'Coming Soon',
+        description: 'Coming soon coming soon coming soon',
         image: '/api/placeholder/400/300',
-        details: 'Description détaillée du projet technique 2...'
+        details: 'description détaillée'
     },
     {
         id: 'tech-3',
-        title: 'Application React Native',
-        description: 'Application mobile de suivi de fitness avec backend Node.js',
+        title: 'Coming Soon',
+        description: 'Coming soon coming soon coming soon',
         image: '/api/placeholder/400/300',
-        details: 'Description détaillée du projet technique 1...'
+        details: 'description détaillée'
     },
     {
         id: 'tech-4',
-        title: 'Portfolio React',
-        description: 'Site web portfolio minimaliste avec React et Tailwind',
+        title: 'Coming Soon',
+        description: 'Coming soon coming soon coming soon',
         image: '/api/placeholder/400/300',
-        details: 'Description détaillée du projet technique 2...'
+        details: 'description détaillée'
     },
     {
         id: 'tech-5',
-        title: 'Portfolio React',
-        description: 'Site web portfolio minimaliste avec React et Tailwind',
+        title: 'Coming Soon',
+        description: 'Coming soon coming soon coming soon',
         image: '/api/placeholder/400/300',
-        details: 'Description détaillée du projet technique 2...'
+        details: 'description détaillée'
     },
     {
         id: 'tech-6',
-        title: 'Portfolio React',
-        description: 'Site web portfolio minimaliste avec React et Tailwind',
+        title: 'Coming Soon',
+        description: 'Coming soon coming soon coming soon',
         image: '/api/placeholder/400/300',
-        details: 'Description détaillée du projet technique 2...'
+        details: 'description détaillée'
     },
     {
         id: 'tech-7',
-        title: 'Portfolio React',
-        description: 'Site web portfolio minimaliste avec React et Tailwind',
+        title: 'Coming Soon',
+        description: 'Coming soon coming soon coming soon',
         image: '/api/placeholder/400/300',
-        details: 'Description détaillée du projet technique 2...'
+        details: 'description détaillée'
     },
     {
         id: 'tech-8',
-        title: 'Portfolio React',
-        description: 'Site web portfolio minimaliste avec React et Tailwind',
+        title: 'Coming Soon',
+        description: 'Coming soon coming soon coming soon',
         image: '/api/placeholder/400/300',
-        details: 'Description détaillée du projet technique 2...'
+        details: 'description détaillée'
     },
     {
         id: 'tech-9',
-        title: 'Portfolio React',
-        description: 'Site web portfolio minimaliste avec React et Tailwind',
+        title: 'Coming Soon',
+        description: 'Coming soon coming soon coming soon',
         image: '/api/placeholder/400/300',
-        details: 'Description détaillée du projet technique 2...'
+        details: 'description détaillée'
     }
 ];
 
@@ -87,10 +87,10 @@ const otherProjects = [
     },
     {
         id: 'other-3',
-        title: 'Blog Personnel',
-        description: 'Partage d\'expériences et de conseils',
+        title: 'Projet Associatif',
+        description: 'Organisation d\'événements caritatifs dans le but de collecter des fonds',
         image: '/api/placeholder/400/300',
-        details: 'Description détaillée du projet 2...'
+        details: 'Description détaillée du projet 1...'
     }
 ];
 
@@ -127,10 +127,10 @@ const ProjectsPage = () => {
                 {/* Liste des Onglets */}
                 <TabList className="flex mb-4 border-b border-gray-300">
                     <Tab className="cursor-pointer px-4 py-2 mr-2 text-gray-700 hover:text-black focus:outline-none" selectedClassName="border-b-2 border-black font-semibold">
-                        Projets Techniques
+                        Technical projects
                     </Tab>
                     <Tab className="cursor-pointer px-4 py-2 mr-2 text-gray-700 hover:text-black focus:outline-none" selectedClassName="border-b-2 border-black font-semibold">
-                        Autres Projets
+                        Other projects
                     </Tab>
                 </TabList>
 

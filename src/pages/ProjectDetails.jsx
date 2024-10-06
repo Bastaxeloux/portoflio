@@ -30,7 +30,7 @@ const ProjectDetails = () => {
     }
 
     return (
-        <div className="py-12 px-8 max-w-4xl mx-auto bg-white">
+        <div className="py-14 px-1 max-w-4xl mx-auto bg-white">
             <div className="flex justify-start mb-8">
                 <Link
                     to="/projets"
