@@ -28,8 +28,8 @@ const technicalProjects = [
     },
     {
         id: 'ProjetTIPE2',
-        title: 'Antenne à balayage de phase',
-        description: 'Etude et conception d\'une antenne à balayage de phase',
+        title: 'Réseaux Phasés',
+        description: 'Etude théorique des réseaux phasés (antenne à balayage de phase) et conception physique d\'une maquette fonctionnelle.',
         image: '/loading.jpg',
         details: ''
     },
@@ -164,3 +164,5 @@ const ProjectsPage = () => {
 };
 
 export default ProjectsPage;
+
+
