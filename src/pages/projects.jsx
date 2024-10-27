@@ -6,66 +6,66 @@ import 'react-tabs/style/react-tabs.css'; // Style de base pour les onglets
 // Données des projets
 const technicalProjects = [
     {
-        id: 'tech-1',
-        title: 'Coming Soon',
-        description: 'Coming soon coming soon coming soon coming soon coming soon',
+        id: 'ProjetJPEG',
+        title: 'Falsification JPEG',
+        description: 'Implémentation d\'un papier de recherche sur la détection de falsification d\'images JPEG',
+        image: '/couv_jpeg.png',
+        details: 'description détaillée'
+    },
+    {
+        id: 'ProjetTIPE1',
+        title: 'Mirroir à surface Liquide',
+        description: 'Réalisation physique d\'un miroir à surface liquide',
         image: '/api/placeholder/400/300',
         details: 'description détaillée'
     },
     {
-        id: 'tech-2',
-        title: 'Coming Soon',
-        description: 'Coming soon coming soon coming soon',
-        image: '/api/placeholder/400/300',
-        details: 'description détaillée'
+        id: 'ProjetPACT',
+        title: 'Manchette Vibrante pour Sourds et Malentendants (MVSM)',
+        description: 'Elaboration d\'un prototype de manchette vibrante pour recréer l\'environnement sonore au travers du toucher',
+        image: '/couv_pact.png',
+        details: ''
     },
     {
-        id: 'tech-3',
-        title: 'Coming Soon',
-        description: 'Coming soon coming soon coming soon',
-        image: '/api/placeholder/400/300',
-        details: 'description détaillée'
-    },
-    {
-        id: 'tech-4',
-        title: 'Coming Soon',
-        description: 'Coming soon coming soon coming soon',
-        image: '/api/placeholder/400/300',
-        details: 'description détaillée'
+        id: 'ProjetTIPE2',
+        title: 'Antenne à balayage de phase',
+        description: 'Etude et conception d\'une antenne à balayage de phase',
+        image: '/loading.jpg',
+        details: ''
     },
     {
         id: 'tech-5',
         title: 'Coming Soon',
         description: 'Coming soon coming soon coming soon',
-        image: '/api/placeholder/400/300',
+        image: '/loading.jpg',
         details: 'description détaillée'
     },
     {
         id: 'tech-6',
         title: 'Coming Soon',
         description: 'Coming soon coming soon coming soon',
-        image: '/api/placeholder/400/300',
+        image: '/loading.jpg',
         details: 'description détaillée'
     },
     {
         id: 'tech-7',
         title: 'Coming Soon',
         description: 'Coming soon coming soon coming soon',
-        image: '/api/placeholder/400/300',
+        image: '/loading.jpg',
         details: 'description détaillée'
     },
     {
         id: 'tech-8',
         title: 'Coming Soon',
         description: 'Coming soon coming soon coming soon',
-        image: '/api/placeholder/400/300',
+        image: '/loading.jpg',
         details: 'description détaillée'
     },
     {
         id: 'tech-9',
         title: 'Coming Soon',
         description: 'Coming soon coming soon coming soon',
-        image: '/api/placeholder/400/300',
+        image: '/loading.jpg',
         details: 'description détaillée'
     }
 ];
@@ -75,21 +75,21 @@ const otherProjects = [
         id: 'other-1',
         title: 'Projet Associatif',
         description: 'Organisation d\'événements caritatifs dans le but de collecter des fonds',
-        image: '/api/placeholder/400/300',
+        image: '/loading.jpg',
         details: 'Description détaillée du projet 1...'
     },
     {
         id: 'other-2',
         title: 'Projet Associatif',
         description: 'Organisation d\'événements caritatifs dans le but de collecter des fonds',
-        image: '/api/placeholder/400/300',
+        image: '/loading.jpg',
         details: 'Description détaillée du projet 1...'
     },
     {
         id: 'other-3',
         title: 'Projet Associatif',
         description: 'Organisation d\'événements caritatifs dans le but de collecter des fonds',
-        image: '/api/placeholder/400/300',
+        image: '/loading.jpg',
         details: 'Description détaillée du projet 1...'
     }
 ];
@@ -119,10 +119,19 @@ const ProjectCard = ({ project }) => (
     </Link>
 );
 
-// Page principale des projets avec deux onglets
 const ProjectsPage = () => {
     return (
         <div className="py-8">
+            {/* Titre centré */}
+            <h1 className="text-3xl font-bold text-center mb-8">Projects</h1>
+
+            {/* Paragraphe informatif */}
+            <p className="text-justify text-gray-700 italic max-w-2xl mx-auto mb-6">
+                All the projects on this page have been carried out by myself, alone or in a group.<br/>
+                <strong>All the text is written by me.</strong> <br/>
+                As the website is in construction, the projects are in French for the moment. They will be soon translated into English.
+            </p>
+
             <Tabs>
                 {/* Liste des Onglets */}
                 <TabList className="flex mb-4 border-b border-gray-300">
@@ -136,7 +145,7 @@ const ProjectsPage = () => {
 
                 <TabPanel>
                     <section className="grid grid-cols-1 md:grid-cols-2 gap-12">
-                        {technicalProjects.map(project => (
+                        {technicalProjects.map((project) => (
                             <ProjectCard key={project.id} project={project} />
                         ))}
                     </section>
@@ -144,7 +153,7 @@ const ProjectsPage = () => {
 
                 <TabPanel>
                     <section className="grid grid-cols-1 md:grid-cols-2 gap-12">
-                        {otherProjects.map(project => (
+                        {otherProjects.map((project) => (
                             <ProjectCard key={project.id} project={project} />
                         ))}
                     </section>

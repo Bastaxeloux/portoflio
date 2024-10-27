@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
-import ProjectsRouter from './pages/projects';
+import { Menu, X, ArrowLeft} from 'lucide-react';
+
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import ProjectsRouter from './pages/projects';
 import CVPage from './pages/CVPage';
+import ScrollToTop from './pages/ScrollToTop';
 import ProjectDetails from './pages/ProjectDetails';
 
 const HomePage = () => {
@@ -42,6 +44,7 @@ const HomePage = () => {
 
       {/* Liens vers réseaux sociaux */}
       <div className="flex space-x-4">
+      <p className="italic text-gray-700 mb-4">My links :</p>
         <a href="https://www.linkedin.com/in/ma%C3%ABl-le-guillouzic-4381a618a/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="text-gray-900 hover:text-blue-600" size={30} />
         </a>
@@ -57,20 +60,21 @@ const Layout = ({ children }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
 
+  // Vérifie si la route correspond à la page de détail du projet
+  const isProjectDetailPage = location.pathname.includes('/projets/') && location.pathname.split('/').length === 3;
+
   return (
     <div className="min-h-screen bg-dotted-pattern flex items-center justify-center p-4 md:p-8">
       {/* Conteneur principal avec bordure épaisse */}
       <div className="h-auto mx-auto max-w-3xl bg-white border-2 border-black rounded-2xl px-6 py-8 md:px-12 relative shadow-sm">
         
-        {/* Logo qui redirige vers l'accueil (ne s'affiche pas sur la page d'accueil) */}
-        {location.pathname !== '/' && (
+        {/* Flèche qui redirige vers l'accueil (ne s'affiche pas sur la page d'accueil ni sur les détails des projets) */}
+        {location.pathname !== '/' && !isProjectDetailPage && (
           <div className="absolute top-6 left-6 md:left-8">
             <Link to="/" aria-label="Retour à l'accueil">
-              <img
-                src="/profile.jpg"
-                alt="Profile"
-                className="rounded-full w-16 h-16 border border-black shadow-lg hover:opacity-80 transition-opacity"
-              />
+              <div className="bg-black p-2 rounded-full shadow-md hover:bg-gray-800 transition-colors">
+                <ArrowLeft size={24} color="white" />
+              </div>
             </Link>
           </div>
         )}
@@ -127,13 +131,13 @@ const Layout = ({ children }) => {
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Layout>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/cv" element={<CVPage />} />
-          <Route path="/projets/*" element={<ProjectsRouter />} />
-          <Route path="/projets/:projectId" element={<ProjectDetails />} />
-
+          <Route path="/projets" element={<ProjectsRouter />} />
+          <Route path="/projets/:id" element={<ProjectDetails />} />
         </Routes>
       </Layout>
     </Router>
