@@ -72,9 +72,9 @@ const technicalProjects = [
 
 const otherProjects = [
     {
-        id: 'other-1',
-        title: 'Projet Associatif',
-        description: 'Organisation d\'événements caritatifs dans le but de collecter des fonds',
+        id: 'ProjetPACE',
+        title: 'PACE : Projet D\'écriture',
+        description: 'Ecriture d\'un ouvrage sur le symbolisme phonétique',
         image: '/loading.webp',
         details: 'Description détaillée du projet 1...'
     },
