@@ -37,35 +37,35 @@ const technicalProjects = [
         id: 'tech-5',
         title: 'Coming Soon',
         description: 'Coming soon coming soon coming soon',
-        image: '/loading.jpg',
+        image: '/loading.webp',
         details: 'description détaillée'
     },
     {
         id: 'tech-6',
         title: 'Coming Soon',
         description: 'Coming soon coming soon coming soon',
-        image: '/loading.jpg',
+        image: '/loading.webp',
         details: 'description détaillée'
     },
     {
         id: 'tech-7',
         title: 'Coming Soon',
         description: 'Coming soon coming soon coming soon',
-        image: '/loading.jpg',
+        image: '/loading.webp',
         details: 'description détaillée'
     },
     {
         id: 'tech-8',
         title: 'Coming Soon',
         description: 'Coming soon coming soon coming soon',
-        image: '/loading.jpg',
+        image: '/loading.webp',
         details: 'description détaillée'
     },
     {
         id: 'tech-9',
         title: 'Coming Soon',
         description: 'Coming soon coming soon coming soon',
-        image: '/loading.jpg',
+        image: '/loading.webp',
         details: 'description détaillée'
     }
 ];
@@ -75,21 +75,21 @@ const otherProjects = [
         id: 'other-1',
         title: 'Projet Associatif',
         description: 'Organisation d\'événements caritatifs dans le but de collecter des fonds',
-        image: '/loading.jpg',
+        image: '/loading.webp',
         details: 'Description détaillée du projet 1...'
     },
     {
         id: 'other-2',
         title: 'Projet Associatif',
         description: 'Organisation d\'événements caritatifs dans le but de collecter des fonds',
-        image: '/loading.jpg',
+        image: '/loading.webp',
         details: 'Description détaillée du projet 1...'
     },
     {
         id: 'other-3',
         title: 'Projet Associatif',
         description: 'Organisation d\'événements caritatifs dans le but de collecter des fonds',
-        image: '/loading.jpg',
+        image: '/loading.webp',
         details: 'Description détaillée du projet 1...'
     }
 ];

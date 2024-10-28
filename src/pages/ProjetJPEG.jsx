@@ -463,7 +463,7 @@ const ProjetJPEG = () => {
 
                 <p className="text-gray-700 leading-relaxed mb-6 text-justify">
                 Nous avons voulu tester notre programme sur plusieures images qui ont subies une falsification, et auxquelles on fait subir une compression de plus en plus forte. 
-                Nous utilisons pour cela une image de base : <strong>harry.jpg</strong> et avec notre programme fourni en annexe, nous produisons plusieurs images compressées avec différents facteurs . 
+                Nous utilisons pour cela une image de base : <strong>harry.jpg, montage réalisé par GuillaumeTC sur Twitter</strong> et avec notre programme fourni en annexe, nous produisons plusieurs images compressées avec différents facteurs . 
                 </p>
                 
                 <div className="flex justify-center mb-6">

@@ -78,7 +78,7 @@ const ProjetPACT = () => {
                     <p className="text-gray-700 mb-6 italic">Cliquer sur l'image pour la voir en grand.</p>
                     <div className="flex justify-center">
                         <img
-                            src="/affiche.jpg"
+                            src="/affiche.webp"
                             alt="Affiche du Projet MVSM"
                             className="w-full max-w-3xl rounded-lg shadow-lg transition-transform duration-300 hover:scale-105 cursor-pointer"
                             onClick={() => setIsLightboxOpen(!isLightboxOpen)}
@@ -89,7 +89,7 @@ const ProjetPACT = () => {
                     {isLightboxOpen && (
                         <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50" onClick={() => setIsLightboxOpen(false)}>
                             <img
-                                src="/affiche.jpg"
+                                src="/affiche.webp"
                                 alt="Affiche du Projet MVSM"
                                 className="w-auto max-h-full max-w-full rounded-lg shadow-lg"
                             />
@@ -105,12 +105,12 @@ const ProjetPACT = () => {
 
                 <div className="flex justify-center space-x-4 mb-12 mt-10">
                     <img
-                        src="/manchette.jpeg"
+                        src="/manchette.webp"
                         alt="Manchette 1"
                         className="w-1/2 max-w-sm rounded-lg shadow-lg transition-transform duration-300 hover:scale-105"
                     />
                     <img
-                        src="/manchette2.jpeg"
+                        src="/manchette2.webp"
                         alt="Manchette 2"
                         className="w-1/2 max-w-sm rounded-lg shadow-lg transition-transform duration-300 hover:scale-105"
                     />

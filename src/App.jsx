@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link, useLocation} from 'react-router-dom';
 import { Menu, X, ArrowLeft} from 'lucide-react';
-
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import ProjectsRouter from './pages/projects';
 import CVPage from './pages/CVPage';
@@ -29,7 +28,7 @@ const HomePage = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-[80vh] text-center">
       <img
-        src="/profile.jpg"
+        src="/profile.webp"
         alt="Profile"
         className="rounded-full w-40 h-40 mb-6 border-4 border-black shadow-lg"
       />
