@@ -9,29 +9,29 @@ const technicalProjects = [
         id: 'ProjetJPEG',
         title: 'Falsification JPEG',
         description: 'Implémentation d\'un papier de recherche sur la détection de falsification d\'images JPEG',
-        image: '/couv_jpeg.png',
+        image: '/couv_jpeg.webp',
         details: 'description détaillée'
-    },
-    {
-        id: 'ProjetTIPE1',
-        title: 'Mirroir à surface Liquide',
-        description: 'Réalisation physique d\'un miroir à surface liquide',
-        image: '/api/placeholder/400/300',
-        details: 'description détaillée'
-    },
-    {
-        id: 'ProjetPACT',
-        title: 'Manchette Vibrante pour Sourds et Malentendants (MVSM)',
-        description: 'Elaboration d\'un prototype de manchette vibrante pour recréer l\'environnement sonore au travers du toucher',
-        image: '/couv_pact.png',
-        details: ''
     },
     {
         id: 'ProjetTIPE2',
         title: 'Réseaux Phasés',
         description: 'Etude théorique des réseaux phasés (antenne à balayage de phase) et conception physique d\'une maquette fonctionnelle.',
-        image: '/loading.jpg',
+        image: '/couv_tipe2.webp',
         details: ''
+    },
+    {
+        id: 'ProjetPACT',
+        title: 'Manchette Vibrante pour Sourds et Malentendants (MVSM)',
+        description: 'Elaboration d\'un prototype de manchette vibrante pour recréer l\'environnement sonore au travers du toucher',
+        image: '/couv_pact.webp',
+        details: ''
+    },
+    {
+        id: 'ProjetTIPE1',
+        title: 'Mirroir à surface Liquide',
+        description: 'Réalisation physique d\'un miroir à surface liquide',
+        image: '/couv_tipe1.webp',
+        details: 'description détaillée'
     },
     {
         id: 'tech-5',
@@ -134,11 +134,13 @@ const ProjectsPage = () => {
 
             <Tabs>
                 {/* Liste des Onglets */}
-                <TabList className="flex mb-4 border-b border-gray-300">
-                    <Tab className="cursor-pointer px-4 py-2 mr-2 text-gray-700 hover:text-black focus:outline-none" selectedClassName="border-b-2 border-black font-semibold">
-                        Technical projects
+                <TabList className="flex mb-6 mt-8 border-b border-gray-300 justify-center">
+                    <Tab className="cursor-pointer px-4 py-2 mr-4 text-gray-700 hover:text-black focus:outline-none transition-all duration-300 transform hover:scale-105" 
+                        selectedClassName="border-b-4 border-black font-semibold">
+                        Scientific projects
                     </Tab>
-                    <Tab className="cursor-pointer px-4 py-2 mr-2 text-gray-700 hover:text-black focus:outline-none" selectedClassName="border-b-2 border-black font-semibold">
+                    <Tab className="cursor-pointer px-4 py-2 mr-4 text-gray-700 hover:text-black focus:outline-none transition-all duration-300 transform hover:scale-105" 
+                        selectedClassName="border-b-4 border-black font-semibold">
                         Other projects
                     </Tab>
                 </TabList>

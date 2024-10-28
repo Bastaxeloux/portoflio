@@ -97,7 +97,7 @@ const ProjetTIPE2 = () => {
                     Un transducteur classique à ultrasons présente un lobe d’émission large et peu directif et n’est pas orientable. Pour résoudre ce problème on place en parallèle plusieurs émetteurs qui ont pour objectif d’affiner le lobe d’émission, et en les commandant en phase, il est possible d’orienter le signal.
                     </p>
                     <div className="flex justify-center mb-6">
-                        <img src="/tipe2_pres/tipe2 2.jpeg" alt="Diapo 2" className="rounded-lg shadow-md" />
+                        <img src="/tipe2_pres/tipe2 2.webp" alt="Diapo 2" className="rounded-lg shadow-md" />
                     </div>
                 </div>
 
@@ -107,7 +107,7 @@ const ProjetTIPE2 = () => {
                     </p>
 
                     <div className="flex justify-center mb-6">
-                        <img src="/tipe2_pres/tipe2 3.jpeg" alt="Diapo 3" className="rounded-lg shadow-md" />
+                        <img src="/tipe2_pres/tipe2 3.webp" alt="Diapo 3" className="rounded-lg shadow-md" />
                     </div>
                 </div>
 
@@ -117,7 +117,7 @@ const ProjetTIPE2 = () => {
                     On utilisera pour émettre notre onde ultrasonore des transducteurs piézoélectriques, qui sont de petits cristaux qui, soumis à une tension vibrent dans une bande de fréquence très fine. La datasheet constructeur indique ainsi une fréquence de résonance de 40 kHz plus ou moins 1 Hz.
                     </p>
                     <div className="flex justify-center mb-6">
-                        <img src="/tipe2_pres/tipe2 4.jpeg" alt="Diapo 4" className="rounded-lg shadow-md" />
+                        <img src="/tipe2_pres/tipe2 4.webp" alt="Diapo 4" className="rounded-lg shadow-md" />
                     </div>
                 </div>
 
@@ -126,7 +126,7 @@ const ProjetTIPE2 = () => {
                     Vérifions cela expérimentalement ainsi que la longueur d’onde. On place donc un émetteur alimenté par un GBF en sinusoïdal face à un récepteur. En reculant l’émetteur et relevant le nombre de déphasage on accède ainsi à la longueur d’onde. Puis en faisant varier la fréquence et en relevant le maximum de réception on obtient la fréquence d’émission précise.
                     </p>
                     <div className="flex justify-center mb-6">
-                        <img src="/tipe2_pres/tipe2 5.jpeg" alt="Diapo 5" className="rounded-lg shadow-md" />
+                        <img src="/tipe2_pres/tipe2 5.webp" alt="Diapo 5" className="rounded-lg shadow-md" />
                     </div>
                 </div>
 
@@ -136,7 +136,7 @@ const ProjetTIPE2 = () => {
                     </p>
 
                     <div className="flex justify-center mb-6">
-                        <img src="/tipe2_pres/tipe2 6.jpeg" alt="Diapo 6" className="rounded-lg shadow-md" />
+                        <img src="/tipe2_pres/tipe2 6.webp" alt="Diapo 6" className="rounded-lg shadow-md" />
                     </div>
                 </div>
 
@@ -148,7 +148,7 @@ const ProjetTIPE2 = () => {
                     </p>
 
                     <div className="flex justify-center mb-6">
-                        <img src="/tipe2_pres/tipe2 7.jpeg" alt="Diapo 7" className="rounded-lg shadow-md" />
+                        <img src="/tipe2_pres/tipe2 7.webp" alt="Diapo 7" className="rounded-lg shadow-md" />
                     </div>
                 </div>
 
@@ -158,7 +158,7 @@ const ProjetTIPE2 = () => {
                     </p>
 
                     <div className="flex justify-center mb-6">
-                        <img src="/tipe2_pres/tipe2 8.jpeg" alt="Diapo 8" className="rounded-lg shadow-md" />
+                        <img src="/tipe2_pres/tipe2 8.webp" alt="Diapo 8" className="rounded-lg shadow-md" />
                     </div>
                 </div>
 
@@ -168,7 +168,7 @@ const ProjetTIPE2 = () => {
                     </p>
 
                     <div className="flex justify-center mb-6">
-                        <img src="/tipe2_pres/tipe2 9.jpeg" alt="Diapo 9" className="rounded-lg shadow-md" />
+                        <img src="/tipe2_pres/tipe2 9.webp" alt="Diapo 9" className="rounded-lg shadow-md" />
                     </div>
                 </div>
 
@@ -179,7 +179,7 @@ const ProjetTIPE2 = () => {
                     </p>
 
                     <div className="flex justify-center mb-6">
-                        <img src="/tipe2_pres/tipe2 10.jpeg" alt="Diapo 10" className="rounded-lg shadow-md" />
+                        <img src="/tipe2_pres/tipe2 10.webp" alt="Diapo 10" className="rounded-lg shadow-md" />
                     </div>
                 </div>
 
@@ -189,7 +189,7 @@ const ProjetTIPE2 = () => {
                     </p>
 
                     <div className="flex justify-center mb-6">
-                        <img src="/tipe2_pres/tipe2 11.jpeg" alt="Diapo 11" className="rounded-lg shadow-md" />
+                        <img src="/tipe2_pres/tipe2 11.webp" alt="Diapo 11" className="rounded-lg shadow-md" />
                     </div>
                 </div>
 
@@ -199,7 +199,7 @@ const ProjetTIPE2 = () => {
                     </p>
 
                     <div className="flex justify-center mb-6">
-                        <img src="/tipe2_pres/tipe2 12.jpeg" alt="Diapo 12" className="rounded-lg shadow-md" />
+                        <img src="/tipe2_pres/tipe2 12.webp" alt="Diapo 12" className="rounded-lg shadow-md" />
                     </div>
                 </div>
 
@@ -211,103 +211,103 @@ const ProjetTIPE2 = () => {
                     </p>
 
                     <div className="flex justify-center mb-6">
-                        <img src="/tipe2_pres/tipe2 13.jpeg" alt="Diapo 13" className="rounded-lg shadow-md" />
+                        <img src="/tipe2_pres/tipe2 13.webp" alt="Diapo 13" className="rounded-lg shadow-md" />
                     </div>
                 </div>
 
                 <div className="flex justify-center mb-12">
-                    <img src="/tipe2_pres/tipe2 14.jpeg" alt="Diapo 14" className="rounded-lg shadow-md" />
+                    <img src="/tipe2_pres/tipe2 14.webp" alt="Diapo 14" className="rounded-lg shadow-md" />
                 </div>
 
                 <div className="flex justify-center mb-12">
-                    <img src="/tipe2_pres/tipe2 15.jpeg" alt="Diapo 15" className="rounded-lg shadow-md" />
+                    <img src="/tipe2_pres/tipe2 15.webp" alt="Diapo 15" className="rounded-lg shadow-md" />
                 </div>
 
                 <div className="flex justify-center mb-12">
-                    <img src="/tipe2_pres/tipe2 16.jpeg" alt="Diapo 16" className="rounded-lg shadow-md" />
+                    <img src="/tipe2_pres/tipe2 16.webp" alt="Diapo 16" className="rounded-lg shadow-md" />
                 </div>
 
                 <div className="mb-12">
                     <h4 className="text-2xl font-semibold mb-4 text-gray-800 mb-6">4.2 Vérification Expérimentale</h4>
                     <div className="flex justify-center mb-6">
-                        <img src="/tipe2_pres/tipe2 17.jpeg" alt="Diapo 17" className="rounded-lg shadow-md" />
+                        <img src="/tipe2_pres/tipe2 17.webp" alt="Diapo 17" className="rounded-lg shadow-md" />
                     </div>
                 </div>
 
                 <div className="flex justify-center mb-12">
-                    <img src="/tipe2_pres/tipe2 18.jpeg" alt="Diapo 18" className="rounded-lg shadow-md" />
+                    <img src="/tipe2_pres/tipe2 18.webp" alt="Diapo 18" className="rounded-lg shadow-md" />
                 </div>
 
                 <div className="flex justify-center mb-12">
-                    <img src="/tipe2_pres/tipe2 19.jpeg" alt="Diapo 19" className="rounded-lg shadow-md" />
+                    <img src="/tipe2_pres/tipe2 19.webp" alt="Diapo 19" className="rounded-lg shadow-md" />
                 </div>
 
                 <div className="flex justify-center mb-12">
-                    <img src="/tipe2_pres/tipe2 20.jpeg" alt="Diapo 20" className="rounded-lg shadow-md" />
+                    <img src="/tipe2_pres/tipe2 20.webp" alt="Diapo 20" className="rounded-lg shadow-md" />
                 </div>
 
                 <div className="flex justify-center mb-12">
-                    <img src="/tipe2_pres/tipe2 21.jpeg" alt="Diapo 21" className="rounded-lg shadow-md" />
+                    <img src="/tipe2_pres/tipe2 21.webp" alt="Diapo 21" className="rounded-lg shadow-md" />
                 </div>
 
                 <div className="flex justify-center mb-12">
-                    <img src="/tipe2_pres/tipe2 22.jpeg" alt="Diapo 22" className="rounded-lg shadow-md" />
+                    <img src="/tipe2_pres/tipe2 22.webp" alt="Diapo 22" className="rounded-lg shadow-md" />
                 </div>
 
                 <div className="flex justify-center mb-12">
-                    <img src="/tipe2_pres/tipe2 23.jpeg" alt="Diapo 23" className="rounded-lg shadow-md" />
+                    <img src="/tipe2_pres/tipe2 23.webp" alt="Diapo 23" className="rounded-lg shadow-md" />
                 </div>
 
                 <div className="flex justify-center mb-12">
-                    <img src="/tipe2_pres/tipe2 24.jpeg" alt="Diapo 24" className="rounded-lg shadow-md" />
+                    <img src="/tipe2_pres/tipe2 24.webp" alt="Diapo 24" className="rounded-lg shadow-md" />
                 </div>
 
                 <div className="flex justify-center mb-12">
-                    <img src="/tipe2_pres/tipe2 25.jpeg" alt="Diapo 25" className="rounded-lg shadow-md" />
+                    <img src="/tipe2_pres/tipe2 25.webp" alt="Diapo 25" className="rounded-lg shadow-md" />
                 </div>
 
                 <div className="flex justify-center mb-12">
-                    <img src="/tipe2_pres/tipe2 26.jpeg" alt="Diapo 26" className="rounded-lg shadow-md" />
+                    <img src="/tipe2_pres/tipe2 26.webp" alt="Diapo 26" className="rounded-lg shadow-md" />
                 </div>
 
                 <h3 className="text-3xl font-semibold mb-4 text-gray-800 mb-6">5. Conclusion </h3>
 
                 <div className="flex justify-center mb-12">
-                    <img src="/tipe2_pres/tipe2 27.jpeg" alt="Diapo 27" className="rounded-lg shadow-md" />
+                    <img src="/tipe2_pres/tipe2 27.webp" alt="Diapo 27" className="rounded-lg shadow-md" />
                 </div>
 
                 <h3 className="text-3xl font-semibold mb-4 text-gray-800 mb-6">6. Annexes </h3>
 
                 <div className="flex justify-center mb-12">
-                    <img src="/tipe2_pres/tipe2 29.jpeg" alt="Diapo 29" className="rounded-lg shadow-md" />
+                    <img src="/tipe2_pres/tipe2 29.webp" alt="Diapo 29" className="rounded-lg shadow-md" />
                 </div>
 
                 <div className="flex justify-center mb-12">
-                    <img src="/tipe2_pres/tipe2 30.jpeg" alt="Diapo 30" className="rounded-lg shadow-md" />
+                    <img src="/tipe2_pres/tipe2 30.webp" alt="Diapo 30" className="rounded-lg shadow-md" />
                 </div>
 
                 <div className="flex justify-center mb-12">
-                    <img src="/tipe2_pres/tipe2 31.jpeg" alt="Diapo 31" className="rounded-lg shadow-md" />
+                    <img src="/tipe2_pres/tipe2 31.webp" alt="Diapo 31" className="rounded-lg shadow-md" />
                 </div>
 
                 <div className="flex justify-center mb-12">
-                    <img src="/tipe2_pres/tipe2 32.jpeg" alt="Diapo 32" className="rounded-lg shadow-md" />
+                    <img src="/tipe2_pres/tipe2 32.webp" alt="Diapo 32" className="rounded-lg shadow-md" />
                 </div>
 
                 <div className="flex justify-center mb-12">
-                    <img src="/tipe2_pres/tipe2 33.jpeg" alt="Diapo 33" className="rounded-lg shadow-md" />
+                    <img src="/tipe2_pres/tipe2 33.webp" alt="Diapo 33" className="rounded-lg shadow-md" />
                 </div>
 
                 <div className="flex justify-center mb-12">
-                    <img src="/tipe2_pres/tipe2 34.jpeg" alt="Diapo 34" className="rounded-lg shadow-md" />
+                    <img src="/tipe2_pres/tipe2 34.webp" alt="Diapo 34" className="rounded-lg shadow-md" />
                 </div>
 
                 <div className="flex justify-center mb-12">
-                    <img src="/tipe2_pres/tipe2 35.jpeg" alt="Diapo 35" className="rounded-lg shadow-md" />
+                    <img src="/tipe2_pres/tipe2 35.webp" alt="Diapo 35" className="rounded-lg shadow-md" />
                 </div>
 
                 <div className="flex justify-center mb-12">
-                    <img src="/tipe2_pres/tipe2 36.jpeg" alt="Diapo 36" className="rounded-lg shadow-md" />
+                    <img src="/tipe2_pres/tipe2 36.webp" alt="Diapo 36" className="rounded-lg shadow-md" />
                 </div>
 
                 <p className="text-black font-bold text-2xl mt-10 text-justify flex items-center justify-center">

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useState, useEffect} from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import { Menu, X, ArrowLeft} from 'lucide-react';
 
@@ -9,6 +9,23 @@ import ScrollToTop from './pages/ScrollToTop';
 import ProjectDetails from './pages/ProjectDetails';
 
 const HomePage = () => {
+  useEffect(() => {
+    const preloadImages = () => {
+        const images = [
+            'couv_jpeg.webp',
+            'couv_tipe2.webp',
+            'couv_pact.webp',
+            'couv_tipe1.webp',
+        ];
+
+        images.forEach((image) => {
+            const img = new Image();
+            img.src = `/${image}`; 
+        });
+    };
+    preloadImages();
+}, []);
+
   return (
     <div className="flex flex-col items-center justify-center min-h-[80vh] text-center">
       <img

@@ -168,7 +168,7 @@ const ProjetJPEG = () => {
 
                 {/* Image DCT avant l'équation */}
                 <div className="flex justify-center mb-6">
-                    <img src="/DCT.png" alt="DCT Image" className="rounded-lg shadow-md" />
+                    <img src="/DCT.webp" alt="DCT Image" className="rounded-lg shadow-md" />
                 </div>
 
 
@@ -197,7 +197,7 @@ const ProjetJPEG = () => {
 
                 {/* Image Quantization */}
                 <div className="flex justify-center mb-6">
-                    <img src="/quantization.png" alt="Quantization Image" className="rounded-lg shadow-md" />
+                    <img src="/quantization.webp" alt="Quantization Image" className="rounded-lg shadow-md" />
                 </div>
 
                 {/* Titre de la section */}
@@ -231,7 +231,7 @@ const ProjetJPEG = () => {
 
                 {/* Insertion de l'image */}
                 <div className="flex justify-center mb-6">
-                    <img src="/8x8grids.png" alt="8x8 grids" className="rounded-lg shadow-md w-2/3" />
+                    <img src="/8x8grids.webp" alt="8x8 grids" className="rounded-lg shadow-md w-2/3" />
                 </div>
 
                 {/* Remarque importante */}
@@ -412,7 +412,7 @@ const ProjetJPEG = () => {
 
                 {/* Image de la carte des votes après recadrage */}
                 <div className="flex justify-center mb-6">
-                    <img src="/pelican_color.png" alt="Carte des votes après recadrage" className="rounded-lg shadow-md w-full md:w-2/3" />
+                    <img src="/pelican_color.webp" alt="Carte des votes après recadrage" className="rounded-lg shadow-md w-full md:w-2/3" />
                 </div>
 
                 <p className="text-gray-700 leading-relaxed mb-6 text-justify">
@@ -422,7 +422,7 @@ const ProjetJPEG = () => {
 
                 {/* Image de la carte des votes après recadrage */}
                 <div className="flex justify-center mb-6">
-                    <img src="/pelicancrop_color.png" alt="Carte des votes après recadrage" className="rounded-lg shadow-md w-full md:w-2/3" />
+                    <img src="/pelicancrop_color.webp" alt="Carte des votes après recadrage" className="rounded-lg shadow-md w-full md:w-2/3" />
                 </div>
 
                 {/* Sous-section B : La Falsification */}
@@ -436,7 +436,7 @@ const ProjetJPEG = () => {
 
                 {/* Image de la carte des votes après falsification */}
                 <div className="flex justify-center mb-6">
-                    <img src="/pelicanmontage_color.png" alt="Carte des votes après falsification" className="rounded-lg shadow-md w-full md:w-2/3" />
+                    <img src="/pelicanmontage_color.webp" alt="Carte des votes après falsification" className="rounded-lg shadow-md w-full md:w-2/3" />
                 </div>
 
                 <p className="text-gray-700 leading-relaxed mb-6 text-justify">
@@ -450,7 +450,7 @@ const ProjetJPEG = () => {
 
                 {/* Image de la carte des votes après falsification subtile */}
                 <div className="flex justify-center mb-6">
-                    <img src="/pelicanmodified_color.png" alt="Carte des votes après falsification subtile" className="rounded-lg shadow-md w-full md:w-2/3" />
+                    <img src="/pelicanmodified_color.webp" alt="Carte des votes après falsification subtile" className="rounded-lg shadow-md w-full md:w-2/3" />
                 </div>
 
                 <p className="text-gray-700 leading-relaxed mb-6 text-justify">
@@ -467,7 +467,7 @@ const ProjetJPEG = () => {
                 </p>
                 
                 <div className="flex justify-center mb-6">
-                    <img src="/harry.png" alt="Harry Falsifiée" className="rounded-lg shadow-md w-full md:w-2/3" />
+                    <img src="/harry.webp" alt="Harry Falsifiée" className="rounded-lg shadow-md w-full md:w-2/3" />
                 </div>
 
                 <p className="text-gray-700 leading-relaxed mb-6 text-justify">
@@ -478,7 +478,7 @@ const ProjetJPEG = () => {
 
                 {/* Image de la carte des votes après compression */}
                 <div className="flex justify-center mb-6">
-                    <img src="/harry_color.png" alt="Carte des votes après compression" className="rounded-lg shadow-md w-full " />
+                    <img src="/harry_color.webp" alt="Carte des votes après compression" className="rounded-lg shadow-md w-full " />
                 </div>
 
                 {/* Conclusion */}
