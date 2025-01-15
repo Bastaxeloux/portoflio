@@ -69,7 +69,7 @@ const ProjetTIPE2 = () => {
 
     return (
         <MathJaxContext config={config}>
-            <div className="py-14 px-1 max-w-4xl mx-auto bg-white">
+            <div className="py-2 px-1 max-w-4xl mx-auto bg-white">
                 {/* Bouton de retour */}
                 <div className="flex justify-start mb-8">
                     <Link
@@ -88,8 +88,14 @@ const ProjetTIPE2 = () => {
                     Abstract: Mon sujet qui porte sur les réseaux phasés, essaie de comprendre le fonctionnement théorique de ces dernier et construit une maquette utilisant ce principe.
                 </p>
 
+                <div className="flex justify-center mb-2">
+                    <img src="/tipe2_pres/construction_4.webp" alt="Montage" className="rounded-lg shadow-md w-2/5" />
+                    <img src="/tipe2_pres/construction_1.webp" alt="Montage 2" className="rounded-lg shadow-md w-2/5 ml-2" />
+                </div>
+                <p className="text-gray-500 italic text-center mb-6">Montage final réalisé au cours de ce projet</p>
+
                 <div className="mb-12">
-                    <h3 className="text-3xl font-semibold mb-4 text-gray-800 mb-6">1. Introduction</h3>
+                    <h3 className="text-3xl font-semibold mb-4 text-gray-800">1. Introduction</h3>
                     <p className="text-gray-700 text-justify mb-10">
                     Les premières utilisations remontent au début du 20eme siècle dans les télécommunication et plus tard pour le repérage des avions lors du décollage et de l’atterrissage lors de la seconde guerre mondiale. Ils sont aujourd’hui utilisés dans de nombreux domaines, notamment médicaux comme l’imagerie par échographie.
                     <br />

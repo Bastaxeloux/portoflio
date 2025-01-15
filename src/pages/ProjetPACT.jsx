@@ -28,7 +28,7 @@ const ProjetPACT = () => {
 
     return (
         <MathJaxContext config={config}>
-            <div className="py-14 px-4 max-w-5xl mx-auto bg-white">
+            <div className="py-4 px-4 max-w-5xl mx-auto bg-white">
                 {/* Bouton de retour */}
                 <div className="flex justify-start mb-8">
                     <Link

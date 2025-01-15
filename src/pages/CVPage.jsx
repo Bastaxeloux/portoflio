@@ -21,7 +21,7 @@ const CVPage = () => {
                     Ambitious student in AI, Applied Mathematics, and Computer Science Engineering at Télécom Paris.
                     Experienced in machine learning, image processing, and deep learning, with a strong foundation in mathematics and programming.
                 </p>
-                <p className="text-sm text-gray-500 mt-4">mael.leguillouzic@telecom-paris.com </p>
+                <p className="text-sm text-gray-500 mt-4">mael.leguillouzic@telecom-paris.fr </p>
             </div>
 
             {/* Section Education */}

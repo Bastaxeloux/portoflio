@@ -1,0 +1,56 @@
+/* Fond blanc pour la page dynamique */
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+    opacity: 1;
+    transition: opacity 1s ease-out;
+}
+
+/* Ajout du fondu */
+.fade-out {
+    opacity: 0;
+}
+
+/* Animation d'apparition pour le texte principal */
+.animated-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    animation: slide-in 1.5s ease-out;
+    margin: 0;
+}
+
+/* Style pour le nom */
+.name-text {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: gray;
+    margin-top: 0.5rem;
+    animation: fade-in 1.5s ease-out;
+}
+
+/* Slide-in animation */
+@keyframes slide-in {
+    from {
+        transform: translateY(50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Fade-in animation for the name */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

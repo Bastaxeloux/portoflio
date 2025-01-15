@@ -38,7 +38,7 @@ const ProjetPACE = () => {
 
     return (
         <MathJaxContext config={config}>
-            <div className="py-14 px-1 max-w-4xl mx-auto bg-white">
+            <div className="py-4 px-1 max-w-4xl mx-auto bg-white">
                 {/* Bouton de retour */}
                 <div className="flex justify-start mb-8">
                     <Link
@@ -72,9 +72,8 @@ const ProjetPACE = () => {
                 <div className="flex justify-center mb-8">
                     <a
                         href={project.pdf}
+                        download
                         className="inline-block bg-white text-red-600 font-medium py-2 px-6 rounded-full border border-red-600 shadow-md hover:bg-red-50 transition-colors"
-                        target="_blank"
-                        rel="noopener noreferrer"
                     >
                         Télécharger en PDF
                     </a>
