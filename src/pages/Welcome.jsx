@@ -8,7 +8,7 @@ const DynamicWelcome = ({ onAnimationEnd }) => {
         const timer = setTimeout(() => {
         setFadeOut(true);
         setTimeout(onAnimationEnd, 1000);
-        }, 3000);
+        }, 1400);
         return () => clearTimeout(timer);
     }, [onAnimationEnd]);
 

@@ -1,42 +1,10 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import 'react-tabs/style/react-tabs.css'; // Style de base pour les onglets
+import 'react-tabs/style/react-tabs.css';
+import PropTypes from 'prop-types';
 
 // Données des projets
 const technicalProjects = [
-    {
-        id: 'ProjetJPEG',
-        title: 'Falsification JPEG',
-        description: 'Implémentation d\'un papier de recherche sur la détection de falsification d\'images JPEG',
-        image: '/couv_jpeg.webp',
-        details: 'description détaillée',
-        order: 2
-    },
-    {
-        id: 'ProjetTIPE2',
-        title: 'Réseaux Phasés',
-        description: 'Etude théorique des réseaux phasés (antenne à balayage de phase) et conception physique d\'une maquette fonctionnelle.',
-        image: '/couv_tipe2.webp',
-        details: '',
-        order: 4
-    },
-    {
-        id: 'ProjetPACT',
-        title: 'Manchette Vibrante pour Sourds et Malentendants (MVSM)',
-        description: 'Elaboration d\'un prototype de manchette vibrante pour recréer l\'environnement sonore au travers du toucher',
-        image: '/couv_pact.webp',
-        details: '',
-        order: 5
-    },
-    {
-        id: 'ProjetTIPE1',
-        title: 'Mirroir à surface Liquide',
-        description: 'Réalisation physique d\'un miroir à surface liquide',
-        image: '/couv_tipe1.webp',
-        details: 'description détaillée',
-        order: 6
-    },
     {
         id: 'Projet3DT',
         title: 'Segmentation d\'images 3D+T',
@@ -46,56 +14,79 @@ const technicalProjects = [
         order: 1
     },
     {
-        id: 'tech-6',
-        title: 'Coming Soon',
-        description: 'Coming soon coming soon coming soon',
-        image: '/loading.webp',
+        id: 'ProjetJPEG',
+        title: 'Falsification JPEG',
+        description: 'Implémentation d\'un papier de recherche sur la détection de falsification d\'images JPEG',
+        image: '/couv_jpeg.webp',
         details: 'description détaillée',
-        order: 9
+        order: 3
     },
     {
-        id: 'tech-7',
+        id: 'ProjetTIPE2',
+        title: 'Réseaux Phasés',
+        description: 'Etude théorique des réseaux phasés (antenne à balayage de phase) et conception physique d\'une maquette fonctionnelle.',
+        image: '/couv_tipe2.webp',
+        details: '',
+        order: 6
+    },
+    {
+        id: 'ProjetPACT',
+        title: 'Manchette Vibrante pour Sourds et Malentendants (MVSM)',
+        description: 'Elaboration d\'un prototype de manchette vibrante pour recréer l\'environnement sonore au travers du toucher',
+        image: '/couv_pact.webp',
+        details: '',
+        order: 7
+    },
+    {
+        id: 'ProjetTIPE1',
+        title: 'Mirroir à surface Liquide',
+        description: 'Réalisation physique d\'un miroir à surface liquide',
+        image: '/couv_tipe1.webp',
+        details: 'description détaillée',
+        order: 8
+    },
+    {
+        id: 'tech-6',
         title: 'Coming Soon',
         description: 'Coming soon coming soon coming soon',
         image: '/loading.webp',
         details: 'description détaillée',
         order: 10
     },
-    {
-        id: 'tech-9',
-        title: 'Coming Soon',
-        description: 'Coming soon coming soon coming soon',
-        image: '/loading.webp',
-        details: 'description détaillée',
-        order: 11
-    }
 ];
 
 const otherProjects = [
+    {
+        id: 'ProjetPANEL',
+        title: 'Animation d\'une table ronde sur les métiers de la Data',
+        description: 'Organisateur et animateur  d\'une table ronde sur les métiers de la Data à Télécom Paris devant 220 étudiants',
+        image: '/couv_data_panel.webp',
+        order: 2
+    },
+    {
+        id: 'ProjetVOILE',
+        title: 'La Voile : Une Passion au Long Cours',
+        description: 'Retour sur mon parcours en voile, de mes débuts en Bretagne à mes responsabilités en école.',
+        image: '/couv_voile.png',
+        details: 'Petit historique de cette activité dans ma vie',
+        order: 5
+    },
     {
         id: 'ProjetPACE',
         title: 'PACE : Projet D\'écriture',
         description: 'Ecriture d\'un ouvrage sur le symbolisme phonétique',
         image: '/couv_pace.webp',
         details: 'Description détaillée du projet 1...',
-        order: 3
+        order: 4
     },
     {
-        id: 'Data Panel',
-        title: 'Animation d\'une table ronde sur les métiers de la Data',
-        description: 'Organisateur et animateur  d\'une table ronde sur les métiers de la Data à Télécom Paris devant 220 étudiants',
-        image: '/couv_data_panel.webp',
-        details: 'Description détaillée du projet 1...',
-        order: 7
-    },
-    {
-        id: 'other-3',
-        title: 'Projet Associatif',
-        description: 'Organisation d\'événements caritatifs dans le but de collecter des fonds',
+        id: 'tech-6',
+        title: 'Coming Soon',
+        description: 'Coming soon coming soon coming soon',
         image: '/loading.webp',
-        details: 'Description détaillée du projet 1...',
-        order: 12
-    }
+        details: 'description détaillée',
+        order: 10
+    },
 ];
 
 {/* Création d'une table commune qui regroupe les projets techniques et non techniques*/}
@@ -188,6 +179,15 @@ const ProjectsPage = () => {
             </Tabs>
         </div>
     );
+};
+
+ProjectCard.propTypes = {
+    project: PropTypes.shape({
+        id: PropTypes.string.isRequired,
+        title: PropTypes.string.isRequired,
+        description: PropTypes.string.isRequired,
+        image: PropTypes.string.isRequired,
+    }).isRequired,
 };
 
 export default ProjectsPage;

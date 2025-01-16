@@ -1,4 +1,3 @@
-import React from 'react';
 import { useParams } from 'react-router-dom';
 import ProjetJPEG from './ProjetJPEG';
 import ProjetTIPE1 from './ProjetTIPE1';
@@ -6,6 +5,8 @@ import ProjetPACT from './ProjetPACT';
 import ProjetTIPE2 from './ProjetTIPE2';
 import ProjetPACE from './ProjetPACE';
 import Projet3DT from './Projet3DT'
+import ProjetPANEL from './ProjetPANEL';
+import ProjetVOILE from './ProjetVOILE';
 
 const components = {
     ProjetJPEG: ProjetJPEG,
@@ -14,6 +15,8 @@ const components = {
     ProjetTIPE2: ProjetTIPE2,
     ProjetPACE : ProjetPACE,
     Projet3DT : Projet3DT,
+    ProjetPANEL : ProjetPANEL,
+    ProjetVOILE : ProjetVOILE
 };
 
 const ProjectDetails = () => {
