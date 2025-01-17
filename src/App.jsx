@@ -37,12 +37,12 @@ const HomePage = () => {
         className="rounded-full w-40 h-40 mb-6 border-4 border-black shadow-lg"
       />
       <h1 className="text-4xl font-bold mb-4 text-gray-900">Le Guillouzic Maël</h1>
-      <p className="italic text-gray-700 mb-4">mael.leguillouzic@telecom-paris.com</p>
-      <p className="text-lg text-center max-w-xl mb-8 leading-relaxed text-gray-700">
-        I am an AI and Mathematics student at Télécom Paris, driven by curiosity and a passion for solving complex
-        problems. I thrive in environments that challenge me to learn continuously and innovate. Besides my studies,
-        I enjoy sport, competitive sailing and geopolitics. I am also deeply involved in student associations,
-        having served as the President of my school's Student Council.
+      <p className="italic text-gray-700 mb-4">mael.leguillouzic@telecom-paris.fr</p>
+      <p className="text-lg max-w-xl mb-8 leading-relaxed text-gray-700 text-justify">
+      I’m a student in <strong>AI and Mathematics</strong> at Télécom Paris, deeply curious and passionate about solving complex problems.
+      I’ve been actively involved in student life as the <strong>President of my school’s Student Council</strong>, the sole organization in charge of campus life,
+      which taught me the value of teamwork and leadership and allowed me to contribute to the campus community.
+      Outside of academics, I love sports, <strong>competitive sailing</strong>, exploring <strong>geopolitics</strong>, and participating in <strong>hackathons</strong> or programming competitions.
       </p>
 
       <div className="flex space-x-4 mb-8">
